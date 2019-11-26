@@ -1,6 +1,8 @@
 export interface IReadIsBetweenRequest {
   accountId:string
-  indexName:string
-  b:any
-  a:any
+  lowerBounds:any
+  upperBounds:any
+  indexName?:string
+  view?:any
+  lastEvaluatedKey?:any
 }
