@@ -1,7 +1,0 @@
-export interface IReadIsLessThanRequest {
-  accountId:string
-  value:any
-  indexName?:string
-  view?:any
-  lastEvaluatedKey?:any
-}
